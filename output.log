@@ -1,0 +1,38 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T14:42:29.211Z,
+     originalMaxAge: 2627999996,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5a28c65e820096cf343e9c45',
+  username: 'amber',
+  color: 'blue' }
+/ Route if user
+[0mGET / [36m304 [0m14.513 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.284 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.983 ms - -[0m
+[0mGET /user/profile [36m304 [0m12.881 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m11.927 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.903 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.321 ms - -[0m
+/login Route
+[0mGET /login [36m304 [0m11.639 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.011 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T14:48:15.020Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.531 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.821 ms - 735[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.523 ms - -[0m
